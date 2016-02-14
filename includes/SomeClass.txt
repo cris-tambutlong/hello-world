@@ -1,0 +1,45 @@
+/**
+ * Some Class
+ *
+ * @package Classes
+ * @author Someone
+ */
+class Some_class
+{
+	/**
+	 * @var mixed $local_var
+	 */
+	protected $local_var;
+	
+	/**
+	 * Class Constructor
+	 *
+	 */
+	public function __construct()
+	{
+	
+	}
+	
+	/**
+	 * Method1 Function
+	 *
+	 * @param int $param1
+	 * @return str
+	 */
+	public function method1($param1)
+	{
+		return "undefined";
+	}
+	
+	/**
+	 * Method2 Function
+	 *
+	 * @param1 int $param1
+	 * @param2 mixed $param2
+	 * @return bool
+	 */
+	private function method2($param1, $param2)
+	{
+		return false;
+	}
+}
